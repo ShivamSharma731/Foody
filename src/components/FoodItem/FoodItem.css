@@ -1,0 +1,81 @@
+.food-item{
+    width:100%;
+    margin:auto;
+    border-radius:15px;
+    box-shadow:0px 0px 10px #00000015;
+    transition:0.3s;
+    animation:fadeIn 2s;
+    margin-bottom: 1vw;
+    height:100%;
+    padding:10px;
+}
+.names{
+    margin-left: 0.3vw;
+    font-weight: 800;
+    font-size: 1.3vw;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+    
+}
+.food-item-desc{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+    font-size: 1vw;
+    margin-left: 0.3vw;
+    color:#676767;
+
+}
+.food-item-price{
+    margin-top:0.3vw;
+    color:tomato; 
+    margin-left: 0.3vw;
+    font-size: 1.5vw;
+    font-weight: 550;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.food-item-image{
+    width:100%;
+    border-radius:15px 15px 0px 0px;
+
+}
+.food-item-name-rating{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+
+}
+.food-item-name-rating img{
+    width:90px;
+    margin-top: 0.3vw;
+
+}
+.food-item-image-container{
+    position: relative;
+
+}
+.add{
+    width:45px;
+    position:absolute;
+    bottom: 15px;
+    right:15px;
+    cursor:pointer;
+    border-radius: 50%;
+}
+.food-item-counter{
+    position: absolute;
+    bottom:15px;
+    right:15px;
+    display: flex;
+    align-items: center;
+    gap:10px;
+    padding:6px;
+    border-radius: 50px;
+    background-color: white;
+}
+.counter{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.3vw;
+    font-weight: 600;
+}
